@@ -1,0 +1,19 @@
+.card_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-content: flex-start;
+}
+.card_item {
+    min-width: 500px;
+}
+
+@media (min-width: 500px) {
+    .card_item {
+        /* min-width: 50%; */
+    }
+    .card_container{
+        flex-direction: row;
+    }
+}
